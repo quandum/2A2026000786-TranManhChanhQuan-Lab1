@@ -1,41 +1,3 @@
-# Giới thiệu bài làm — Day 01 Lab Assignment
-
-**Sinh viên:** Trần Mạnh Chánh Quân  
-**Mã học viên:** .2A202600786
-
-## Mô tả bài tập
-Bài tập này là phần thực hành cho buổi Lab 01 trong khóa học Lập trình và Ứng dụng AI. Mục tiêu là làm quen với cấu trúc dự án, môi trường Python, và triển khai các hàm theo yêu cầu trong đề bài để vượt qua bộ kiểm thử tự động.
-
-## Cấu trúc kho
-- `template.py` — Tệp khung bài tập (nếu có).
-- `solution/solution.py` — File chứa lời giải của tôi.
-- `tests/test_solution.py` — Bộ kiểm thử pytest để kiểm tra kết quả.
-- `requirements.txt` — Danh sách thư viện cần cài đặt.
-- `day_01_llm_api_foundation.ipynb` — Notebook tham khảo cho buổi lab.
-
-## Hướng dẫn chạy
-
-1. Cài đặt phụ thuộc:
-
-```bash
-pip install -r requirements.txt
-```
-
-2. Chạy kiểm thử với `pytest`:
-
-```bash
-pytest -q
-```
-
-Nếu tất cả kiểm thử đều PASS, bài làm được coi là hoàn chỉnh.
-
-## Ghi chú về bài làm
-- Mọi thay đổi về lời giải được đặt trong `solution/solution.py`.
-- Nếu có thắc mắc hoặc cần hiệu chỉnh, liên hệ với giảng viên hoặc trợ giảng theo hướng dẫn lớp.
-
----
-
-Bản nộp: Trần Mạnh Chánh Quân — .2A202600786
 # Ngày 1 — Nền Tảng LLM API
 
 ## Mục Tiêu
@@ -52,7 +14,7 @@ Học cách gọi OpenAI API, hiểu các tham số sinh text quan trọng, so s
 
 ```bash
 # Cài đặt thư viện
-pip install -r ./requirements.txt
+pip install -r ../../requirements.txt
 
 # Thiết lập biến môi trường
 export OPENAI_API_KEY="sk-..."
